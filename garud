@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# coded by R0X4R
+# recoded by trhacknon
 # Garud - version 4.0
-# Contributers: KathanP19 (https://github.com/KathanP19), frost19k (https://github.com/frost19k), f8al (https://github.com/f8al), theamanrawat (https://github.com/theamanrawat), remonsec (https://github.com/remonsec), simrotion13 (https://github.com/simrotion13)
+# Contributers:Trhacknon (https://github.com/trhacknon), KathanP19 (https://github.com/KathanP19), frost19k (https://github.com/frost19k), f8al (https://github.com/f8al), theamanrawat (https://github.com/theamanrawat), remonsec (https://github.com/remonsec), simrotion13 (https://github.com/simrotion13)
 
 #@> CHECK CONNECTION
 wget -q --spider http://google.com
@@ -33,7 +33,7 @@ PRINT_USAGE(){
 \t\t█░▀█ █▄▄█ █▄▄▀ █░░█ █░░█
 \t\t▀▀▀▀ ▀░░▀ ▀░▀▀ ░▀▀▀ ▀▀▀░
 ${RT}"
-    echo -e "[${YW}GARUD${RT}] == A RECONNAISSANCE SUITE FOR BUG BOUNTY (${BK}@R0X4R${RT})"
+    echo -e "[${YW}GARUD${RT}] == A RECONNAISSANCE SUITE FOR BUG BOUNTY (${BK}@TRHACKNON${RT})"
     echo -e ""
     echo -e "Example Usage:"
     echo -e "garud [-d target.tld] [-x exclude domains] [--json] [-s]"
@@ -115,7 +115,7 @@ INFOM(){
 \t\t█░▀█ █▄▄█ █▄▄▀ █░░█ █░░█
 \t\t▀▀▀▀ ▀░░▀ ▀░▀▀ ░▀▀▀ ▀▀▀░
 ${RT}"
-    echo -e "[${YW}GARUD${RT}] == A RECONNAISSANCE SUITE FOR BUG BOUNTY (${BK}@R0X4R${RT})"
+    echo -e "[${YW}GARUD${RT}] == A RECONNAISSANCE SUITE FOR BUG BOUNTY (${BK}@TRHACKNON${RT})"
     OT=$(echo -e "$(echo $DM | sed -e 's/\.[a-z]*$//')_$(date +"%Y_%M_%d-%H_%M_%S")")
     mkdir -p $OT 2> /dev/null
     cd $OT

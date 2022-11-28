@@ -38,6 +38,7 @@ What's new in v4.0: fixed some previous issues and filter out time waste vulns(y
 
 **Tools used - You must need to install these tools to use this script**<br>
 
+  <a href="https://github.com/trhacknon/QuickXSS">`QuickXSS`</a><br>
   <a href="https://github.com/projectdiscovery/subfinder">`subfinder`</a> •
   <a href="https://github.com/aboul3la/Sublist3r">`sublist3r`</a> •
   <a href="https://github.com/1ndianl33t/Gf-Patterns">`gf patterns`</a> •

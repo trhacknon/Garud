@@ -48,6 +48,7 @@ githubd(){
     git clone https://github.com/aboul3la/Sublist3r.git -q ~/tools/Sublist3r
     cd ~/tools/Sublist3r && sudo pip3 install -r requirements.txt > /dev/null 2>&1
     git clone https://github.com/1ndianl33t/Gf-Patterns -q && mv Gf-Patterns/*.json ~/.gf/ && rm -rf Gf-Patterns/ > /dev/null 2>&1
+    git clone https://github.com/trhacknon/gf-patterns -q && mv gf-patterns/*.json ~/.gf/ && rm -rf gf-patterns/ > /dev/null 2>&1
     if [ -s ~/tools/Sublist3r/sublister.py ]; then
         echo -e "${GR}SUCCESS${RT}"
     else
@@ -65,7 +66,7 @@ githubd(){
     fi
     
     echo -e "\n- Installing Agnee"
-    sudo pip3 install git+https://github.com/R0X4R/Search-Engines-Scraper.git > /dev/null 2>&1 && sudo pip3 install agnee > /dev/null 2>&1
+    sudo pip3 install git+https://github.com/trhacknon/Search-Engines-Scraper.git > /dev/null 2>&1 && sudo pip3 install agnee > /dev/null 2>&1
     if command -v agnee &> /dev/null; then
         echo -e "${GR}SUCCESS${RT}"
     else

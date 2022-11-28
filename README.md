@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/R0X4R/Garud/"><img src=".github/img/garud.png" width="500px" alt="Garud"></a>
+  <a href="https://github.com/trhacknon/Garud/"><img src=".github/img/garud.png" width="500px" alt="Garud"></a>
 </h1>
                                                                                                                                             
 <h4 align="center">An automation tool that scans sub-domains, sub-domain takeover and then filters out xss, ssti, ssrf and more injection point parameters.</h4>
@@ -9,10 +9,10 @@
 <a href="#"><img src="https://madewithlove.org.in/badge.svg"></a>
 <a href="https://ko-fi.com/i/IK3K34SJSA"><img src="https://img.shields.io/badge/buy%20me%20a%20ko--fi%20-donate-red"></a>
 <a href="https://twitter.com/R0X4R/"><img src="https://img.shields.io/badge/twitter-%40R0X4R-blue.svg"></a>
-<a href="https://github.com/R0X4R/Garud/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
-<a href="https://github.com/R0X4R/Garud/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
+<a href="https://github.com/trhacknon/Garud/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://github.com/trhacknon/Garud/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
 <a href="#"><img src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg"></a>
-<a href="https://github.com/R0X4R?tab=followers"><img src="https://img.shields.io/badge/github-%40R0X4R-orange"></a>
+<a href="https://github.com/trhacknon?tab=followers"><img src="https://img.shields.io/badge/github-%40R0X4R-orange"></a>
 </p>
 
 ---
@@ -67,7 +67,7 @@ What's new in v4.0: fixed some previous issues and filter out time waste vulns(y
 
 garud:~ sudo su
 garud:~ apt install git
-garud:~ git clone https://github.com/R0X4R/Garud.git && cd Garud/ && chmod +x garud install.sh && mv garud /usr/bin/ && ./install.sh
+garud:~ git clone https://github.com/trhacknon/Garud.git && cd Garud/ && chmod +x garud install.sh && mv garud /usr/bin/ && ./install.sh
 ```
 
 > **Note**: If you encounter any-issue while running `install.sh` file or `garud` run `sed -i -e 's/\r$//' install.sh`
@@ -82,7 +82,7 @@ garud:~ git clone https://github.com/R0X4R/Garud.git && cd Garud/ && chmod +x ga
                 █░▀█ █▄▄█ █▄▄▀ █░░█ █░░█
                 ▀▀▀▀ ▀░░▀ ▀░▀▀ ░▀▀▀ ▀▀▀░
 
-[GARUD] == A RECONNAISSANCE SUITE FOR BUG BOUNTY (@R0X4R)
+[GARUD] == A RECONNAISSANCE SUITE FOR BUG BOUNTY (@trhacknon)
 
 Example Usage:
 garud [-d target.tld] [-x exclude domains] [--json] [-s]
@@ -161,7 +161,7 @@ Contributed by [`@frost19k`](https://github.com/frost19k)
 
 This image needs to be built with [`Buildkit`](https://docs.docker.com/develop/develop-images/build_enhancements/)
 ```bash
-garud:~ git clone https://github.com/R0X4R/Garud.git
+garud:~ git clone https://github.com/trhacknon/Garud.git
 garud:~ cd Garud 
 garud:~ docker buildx build -t garud -f Dockerfile .
 ```
@@ -187,7 +187,7 @@ Garud runs as root inside the container & so it is advisable to configure Linux 
 <p align="left">
 <h3>Donate</h3> 
 
-|[`buymeacoffee.com/R0X4R`](https://www.buymeacoffee.com/R0X4R)|[`payU India`](https://pmny.in/bIKNZngt4ys1)|[`kofi.com/R0X4R`](https://ko-fi.com/i/IK3K34SJSA)|
+|[`buymeacoffee.com/trhacknon`](https://www.buymeacoffee.com/R0X4R)|[`payU India`](https://pmny.in/bIKNZngt4ys1)|[`kofi.com/R0X4R`](https://ko-fi.com/i/IK3K34SJSA)|
 |--------|--------|------|
 
 ### Thanks to the authors of the tools used in this script.

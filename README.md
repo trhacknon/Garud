@@ -6,13 +6,13 @@
 <h4 align="center">An automation tool that scans sub-domains, sub-domain takeover and then filters out xss, ssti, ssrf and more injection point parameters.</h4>
 
 <p align="center">
-<a href="#"><img src="https://madewithlove.org.in/badge.svg"></a>
+<a href="#"><img src=".github/img/garud.png" width="60px" ></a>
 <a href="https://ko-fi.com/i/IK3K34SJSA"><img src="https://img.shields.io/badge/buy%20me%20a%20ko--fi%20-donate-red"></a>
-<a href="https://twitter.com/R0X4R/"><img src="https://img.shields.io/badge/twitter-%40R0X4R-blue.svg"></a>
+<a href="https://twitter.com//"><img src="https://img.shields.io/badge/twitter-%40trhacknon-blue.svg"></a>
 <a href="https://github.com/trhacknon/Garud/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
 <a href="https://github.com/trhacknon/Garud/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-yellow.svg"></a>
 <a href="#"><img src="https://img.shields.io/badge/Made%20with-Bash-1f425f.svg"></a>
-<a href="https://github.com/trhacknon?tab=followers"><img src="https://img.shields.io/badge/github-%40R0X4R-orange"></a>
+<a href="https://github.com/trhacknon?tab=followers"><img src="https://img.shields.io/badge/github-%40trhacknon-orange"></a>
 </p>
 
 ---

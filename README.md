@@ -37,7 +37,7 @@ What's new in v4.0: fixed some previous issues and filter out time waste vulns(y
 **System requirements:** Recommended to run on vps with ``1VCPU`` and ``2GB RAM``.<br>
 
 **Tools used - You must need to install these tools to use this script**<br>
-  <a href="https://github.com/trhacknon/hacktrails">`hacktrails`</a> •
+  <a href="https://github.com/trhacknon/haktrails">`haktrails`</a> •
   <a href="https://github.com/trhacknon/QuickXSS">`QuickXSS`</a> •
   <a href="https://github.com/projectdiscovery/subfinder">`subfinder`</a> •
   <a href="https://github.com/aboul3la/Sublist3r">`sublist3r`</a> •
